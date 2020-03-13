@@ -12,7 +12,7 @@
   print $nickname;
   print'様<br/>';
   print'ご意見ありがとうございました<br/>';
-  print'頂いた御意見「';
+  print'頂いた御意見[';
   print $goiken;
   print']<br/>';
   print $email;
