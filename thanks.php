@@ -9,6 +9,10 @@
   $email=$_POST['email'];
   $goiken=$_POST['goiken'];
   
+  $nickname=htmlspecialchars($nickname);
+  $email=htmlspecialchars($email);
+  $goiken=htmlspecialchars($goiken);
+
   print $nickname;
   print'様<br/>';
   print'ご意見ありがとうございました<br/>';
