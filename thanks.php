@@ -39,7 +39,6 @@
   $sql = 'INSERT INTO anketo(nickname,email,goiken) VALUES("'.$nickname.'","'.$email.'","'.$goiken.'")';
   $stmt = $dbh->prepare($sql);
   $stmt->execute();
-  
   $dbh = null;
 
   ?>
